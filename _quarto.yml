@@ -10,7 +10,8 @@ website:
         menu: 
          - href: Aula1.qmd
            text: R markdown e data.frame
-         
+         - href: Aula2.qmd
+           text: Carregando planilhas para dentro do R
 
 format:
   html:

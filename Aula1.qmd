@@ -1,10 +1,8 @@
 ---
-title: "Aula 1"
+title: "Introdução ao R"
 ---
 
-## Introdução ao R
-
-### Aprendendo como inserir texto ou códigos no R
+## Aprendendo como inserir texto ou códigos no R
 
 No programa R podemos inserir anotações e formatar o documento como um documento de texto. Para colocar uma palavra em negrito adiciona-se dois asteriscos antes e após a **palavra (\*\* \*\*)**, e um anterisco antes e após a *palavra (\* \*)*, para colocar uma palavra em itálico. O tamanho da fonte pode ser regulada pela quantidade de #.
 
