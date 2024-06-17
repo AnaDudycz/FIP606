@@ -40,6 +40,11 @@ website:
          - href: Aula13.qmd
            text: Regressão não-linear
 
+
+  page-navigation: true
+  page-footer: 
+    center: "Copyright 2024, Ana Rita Dudycz"
+
 format:
   html:
     theme: cosmo
