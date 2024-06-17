@@ -9,7 +9,7 @@ website:
       - text: Introdução ao R
         menu: 
          - href: Aula1.qmd
-           text: R markdown e data.frame
+           text: R markdown e data frame
          - href: Aula2.qmd
            text: Carregando planilhas para dentro do R
       - text: Construção de gráficos em R
@@ -18,6 +18,18 @@ website:
            text: Gráficos com ggplot
          - href: Aula4.qmd
            text: Outros pacotes e funções na construção de gráficos
+      - text: Análise estatística em R
+        menu: 
+         - href: Aula5.qmd
+           text: Teste T
+         - href: Aula6.qmd
+           text: ANOVA com um fator
+         - href: Aula7.qmd
+           text: Transformação dos dados
+         - href: Aula8.qmd
+           text: ANOVA fatorial
+         - href: Aula9.qmd
+           text: ANOVA com DBC
 
 format:
   html:
