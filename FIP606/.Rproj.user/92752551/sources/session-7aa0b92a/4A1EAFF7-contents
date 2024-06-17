@@ -6,9 +6,11 @@ website:
   title: "FIP606"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Introdução ao R
+        menu: 
+         - href: Aula1.qmd
+           text: R markdown e data.frame
+         
 
 format:
   html:

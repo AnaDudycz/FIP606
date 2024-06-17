@@ -12,5 +12,47 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Aula1.html",
+    "href": "Aula1.html",
+    "title": "Aula 1",
+    "section": "",
+    "text": "No programa R podemos inserir anotações e formatar o documento como um documento de texto. Para colocar uma palavra em negrito adiciona-se dois asteriscos antes e após a palavra (** **), e um anterisco antes e após a palavra (* *), para colocar uma palavra em itálico. O tamanho da fonte pode ser regulada pela quantidade de #."
+  },
+  {
+    "objectID": "Aula1.html#introdução-ao-r",
+    "href": "Aula1.html#introdução-ao-r",
+    "title": "Aula 1",
+    "section": "",
+    "text": "No programa R podemos inserir anotações e formatar o documento como um documento de texto. Para colocar uma palavra em negrito adiciona-se dois asteriscos antes e após a palavra (** **), e um anterisco antes e após a palavra (* *), para colocar uma palavra em itálico. O tamanho da fonte pode ser regulada pela quantidade de #."
+  },
+  {
+    "objectID": "Aula1.html#r-markdown",
+    "href": "Aula1.html#r-markdown",
+    "title": "Aula 1",
+    "section": "R markdown",
+    "text": "R markdown\nFormato que permite trabalhar com chunks separados e fazer o uso de anotações entre os mesmos. Pode-se inserir anotações úteis na análise do projeto. Um chunk é a área onde os códigos são inseridos e é possível rodar as análises. Para adicionar um chunk pode-se clicar em Ctrl+Alt+I.\n\nx &lt;- 10\ny &lt;- x * 10 \nz &lt;- x * y\nx &lt;- 10"
+  },
+  {
+    "objectID": "Aula1.html#data.frame",
+    "href": "Aula1.html#data.frame",
+    "title": "Aula 1",
+    "section": "Data.Frame",
+    "text": "Data.Frame\nA função data.frame pode ser usada para organizar os dados trabalhados em uma tabela.\n\ndf &lt;- cars\ncars\n\n   speed dist\n1      4    2\n2      4   10\n3      7    4\n4      7   22\n5      8   16\n6      9   10\n7     10   18\n8     10   26\n9     10   34\n10    11   17\n11    11   28\n12    12   14\n13    12   20\n14    12   24\n15    12   28\n16    13   26\n17    13   34\n18    13   34\n19    13   46\n20    14   26\n21    14   36\n22    14   60\n23    14   80\n24    15   20\n25    15   26\n26    15   54\n27    16   32\n28    16   40\n29    17   32\n30    17   40\n31    17   50\n32    18   42\n33    18   56\n34    18   76\n35    18   84\n36    19   36\n37    19   46\n38    19   68\n39    20   32\n40    20   48\n41    20   52\n42    20   56\n43    20   64\n44    22   66\n45    23   54\n46    24   70\n47    24   92\n48    24   93\n49    24  120\n50    25   85\n\ndf$dist\n\n [1]   2  10   4  22  16  10  18  26  34  17  28  14  20  24  28  26  34  34  46\n[20]  26  36  60  80  20  26  54  32  40  32  40  50  42  56  76  84  36  46  68\n[39]  32  48  52  56  64  66  54  70  92  93 120  85\n\ndf$dist2 &lt;- c(1:50)\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\ndf |&gt; \n  mutate(dist3 = dist2+1) |&gt; \n  select(4)\n\n   dist3\n1      2\n2      3\n3      4\n4      5\n5      6\n6      7\n7      8\n8      9\n9     10\n10    11\n11    12\n12    13\n13    14\n14    15\n15    16\n16    17\n17    18\n18    19\n19    20\n20    21\n21    22\n22    23\n23    24\n24    25\n25    26\n26    27\n27    28\n28    29\n29    30\n30    31\n31    32\n32    33\n33    34\n34    35\n35    36\n36    37\n37    38\n38    39\n39    40\n40    41\n41    42\n42    43\n43    44\n44    45\n45    46\n46    47\n47    48\n48    49\n49    50\n50    51"
+  },
+  {
+    "objectID": "Aula1.html#instalando-pacotes",
+    "href": "Aula1.html#instalando-pacotes",
+    "title": "Aula 1",
+    "section": "Instalando pacotes",
+    "text": "Instalando pacotes\nHá diferentes formas de instalar pacotes. No source pode-se escrever o código Install.packages(“nome do pacote”). Para utilizar o pacote é necessário carregar o pacote com a função library(nome do pacote)\n\ninstall.packages(\"tidyverse\")\n\nWarning: package 'tidyverse' is in use and will not be installed\n\nlibrary(tidyverse)"
+  },
+  {
+    "objectID": "Aula1.html#utilizando-o-pacote-ec50estimator",
+    "href": "Aula1.html#utilizando-o-pacote-ec50estimator",
+    "title": "Aula 1",
+    "section": "Utilizando o pacote ec50estimator",
+    "text": "Utilizando o pacote ec50estimator\nCom o pacote ec50estimator pode-se estimar a dose efetiva a partir de um conjunto de dados. Pode -se observar um exemplo chamado multi_isolate dentro do pacote, em que há um conjunto de dados relacionando o crescimento micelial a partir de diferentes doses de fungicidas.\n\n##install.packages(\"ec50estimator\")\nlibrary (ec50estimator)\ndf1 &lt;- multi_isolate"
   }
 ]
