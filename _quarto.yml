@@ -12,6 +12,12 @@ website:
            text: R markdown e data.frame
          - href: Aula2.qmd
            text: Carregando planilhas para dentro do R
+      - text: Construção de gráficos em R
+        menu: 
+         - href: Aula3.qmd
+           text: Gráficos com ggplot
+         - href: Aula4.qmd
+           text: Outros pacotes e funções na construção de gráficos
 
 format:
   html:
