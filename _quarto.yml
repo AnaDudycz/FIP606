@@ -4,8 +4,9 @@ project:
 
 website:
   title: "FIP606"
+  
   navbar:
-    left:
+   left:
       - text: Introdução ao R
         menu: 
          - href: Aula1.qmd
@@ -30,6 +31,14 @@ website:
            text: ANOVA fatorial
          - href: Aula9.qmd
            text: ANOVA com DBC
+         - href: Aula10.qmd
+           text: ANOVA com parcela subdividida
+         - href: Aula11.qmd
+           text: Regressão linear
+         - href: Aula12.qmd
+           text: Análise de correlação
+         - href: Aula13.qmd
+           text: Regressão não-linear
 
 format:
   html:
