@@ -39,7 +39,7 @@ website:
            text: Análise de correlação
          - href: Aula13.qmd
            text: Regressão não-linear
-      - text: Mapas
+      - text: Mapas em R
         href: Aula14.qmd
 
 
