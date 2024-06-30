@@ -177,8 +177,8 @@ wr <- WhiteMoldSoybean
 wr |> 
   ggplot(aes(inc, yld, group = factor(study)))+
   geom_point()+
-  #facet_wrap(~ study)+
-  geom_smooth(method = "lm", se = F)
+  facet_wrap(~ study)+
+  geom_smooth(method = "lm", se = F)+
   theme_minimal()
 
 mofo1 <- lm(yld ~inc,
