@@ -59,10 +59,11 @@ format:
     theme: 
       light: sandstone
       dark: darkly
-    toc: true
     code-copy: true
     code-overflow: wrap
     warning: false
+    css: styles.css
+    toc: true
 
 editor: visual
 
