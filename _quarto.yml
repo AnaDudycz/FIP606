@@ -10,7 +10,6 @@ website:
   reader-mode: true
   page-navigation: true
   title: "FIP606"
-  
   navbar:
    pinned: true
    search: true
