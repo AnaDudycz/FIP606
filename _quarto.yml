@@ -7,10 +7,13 @@ execute:
   freeze: auto
 
 website:
+  reader-mode: true
+  page-navigation: true
   title: "FIP606"
   
   navbar:
    pinned: true
+   search: true
    left:
       - text: Introdução ao R
         menu: 
@@ -48,7 +51,6 @@ website:
         href: Aula14.qmd
 
 
-  page-navigation: true
   page-footer: 
     center: "Copyright 2024, Ana Rita Dudycz"
 
